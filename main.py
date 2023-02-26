@@ -1,3 +1,8 @@
+
+
+'''
+    Función para imprmir arreglos
+'''
 def imprimir_Arreglo(arreglo):
   tamanio = len(arreglo)
   for i in range(tamanio-1):
@@ -5,6 +10,9 @@ def imprimir_Arreglo(arreglo):
 
 
 
+'''
+    Función para el ordenamiento por burbuja
+'''
 def algoritmo_Burbuja(arreglo):
 
   for i in range(len(arreglo)-1):
@@ -19,6 +27,9 @@ def algoritmo_Burbuja(arreglo):
 
 
 
+'''
+    Sección para realizar prueba
+'''
 listaSueldos = [20.8,150.5,170.5,180.8,190,30,75.6,200]
 print("\n Suelo de empleados sin ordenar \n")
 imprimir_Arreglo(listaSueldos)
