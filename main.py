@@ -36,3 +36,6 @@ imprimir_Arreglo(listaSueldos)
 algoritmo_Burbuja(listaSueldos)
 print("\n\n Suelo de empleados ordenado \n")
 imprimir_Arreglo(listaSueldos)
+
+
+# programa de finalización
